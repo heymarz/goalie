@@ -39,7 +39,7 @@ export const DataProvider = ({ children }) =>{
       }})
     }
   })
-},[loggedin])
+},[])
 
   return (
     <DataContext.Provider value = {{
